@@ -15,6 +15,11 @@ public class ArraySortingOne {
 		sortIntArray(myIntArray);
 		
 		printArray(myIntArray);
+		// example for copy of an existing array to new array
+		
+		int[] myNewIntArray = Arrays.copyof(myIntArray, myIntArray.length);
+		printArray(myIntArray);
+		
 		
 	}
 	
